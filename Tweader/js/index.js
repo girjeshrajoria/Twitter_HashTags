@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     $button_search.click(function () {
         var return_interval = "";
-        if ($button_search.val() === "Search"){
+        if ($button_search.val() === "Add"){
             var tag = $('#txtHashTag').val();
             localStorage.setItem("htag", tag);
             $.post(
@@ -32,7 +32,7 @@ $(document).ready(function () {
         else{
             $('#txtHashTag').removeAttr('disabled');
             localStorage.clear();
-            $button_search.prop('value', 'Search');
+            $button_search.prop('value', 'Add');
             clearInterval(return_interval);
             $('table tr').remove();
             $.post(
