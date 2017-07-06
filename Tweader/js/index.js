@@ -5,7 +5,7 @@
 $(document).ready(function () {
     var embed_url = "https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/";
 
-    var $button_search = $('#buttonSeacrchTag');
+    var $button_search = $('#buttonSearchTag');
 
     var savedTag = localStorage.getItem("htag");
     if (savedTag !== null){
