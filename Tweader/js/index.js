@@ -2,6 +2,7 @@
  * Created by girjesh on 7/2/2017.
  */
 
+
 $(document).ready(function () {
     var embed_url = "https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/";
 
