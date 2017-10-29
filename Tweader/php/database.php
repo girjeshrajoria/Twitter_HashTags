@@ -6,6 +6,7 @@
  * Time: 7:05 PM
  */
 
+
 require ("database_credentials.php");
 
 function db_connect(){
